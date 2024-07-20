@@ -1,1 +1,4 @@
-export const GOOGLE_API_KEY = "AIzaSyDypqOCO0AaNGvRGeVJ14iobizCp9QcpHo";
+declare module '@env' {
+    export const GOOGLE_API_KEY: string;
+    // add other environment variables as needed
+  }
